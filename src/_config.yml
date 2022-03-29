@@ -102,4 +102,12 @@ theme: keep
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: git@github.com:swaggyp7/swaggyp7.github.io.git
+  branch: example
+
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
