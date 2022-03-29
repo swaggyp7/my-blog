@@ -1,0 +1,40 @@
+# theme config -Keep
+base_info:
+  title: Lin's Blog
+  author: YuTeng Lin
+  url: https://swaggyp7.github.io/
+style:
+  # Theme primary color
+  primary_color: "#0066CC"
+  # Avatar (You can use local image or image external link)
+  avatar: https://avatars.githubusercontent.com/u/76236579?v=4
+
+  # Favicon (You can use local image or image external link)
+  favicon: /static/images/poo.svg
+
+  # Article image align position, value: left | center
+  article_img_align: left
+
+  # Left side width
+  left_side_width: 260px
+
+  # Content area max width
+  content_max_width: 920px
+
+  # Mouse hover
+hover:
+  shadow: true # shadow effect when the mouse hover
+  scale: true # scale effect when the mouse hover
+
+# First screen
+first_screen:
+  enable: true
+  background_img: /static/images/bg-cloud.jpg # You can use local image or image external link
+  description: Keep writing and Keep loving.
+
+# Scroll style settings
+scroll:
+  progress_bar:
+    enable: false
+  percent:
+    enable: false
